@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load the model
-model = joblib.load(r"C:\Users\mdana\Downloads\development\demo\demo\src\main\resources\weather_model.pkl")
+model = joblib.load(r"/workspaces/Randomforestregressorweatherforcaste/src/main/resources/weather_model.pkl")
 
 # Function to make predictions
 def predict(day_of_year, month):
